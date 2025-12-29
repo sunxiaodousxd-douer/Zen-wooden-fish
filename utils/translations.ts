@@ -1,0 +1,71 @@
+export type Language = 'zh' | 'en';
+
+export const translations = {
+  zh: {
+    appTitle: "电子木鱼",
+    totalMerit: "累计功德",
+    todayMerit: "今日功德",
+    currentIntention: "当前念想",
+    customPlaceholder: "自定义...",
+    meritBook: "功德簿",
+    guest: "游客",
+    loginTitle: "欢迎施主",
+    editProfile: "修改个人信息",
+    phoneLabel: "手机号",
+    phonePlaceholder: "用于记录功德",
+    nicknameLabel: "昵称",
+    nicknamePlaceholder: "您的称呼",
+    cancel: "取消",
+    confirm: "确定",
+    phoneError: "请输入手机号",
+    nicknameError: "请输入昵称",
+    statsTitle: "近30日修行记录",
+    total30Days: "30日总功德",
+    activeDays: "活跃天数",
+    dailyTrend: "每日趋势",
+    intentionDist: "念想分布 (前五)",
+    noRecords: "暂无记录",
+    floatingMerit: "功德 +1"
+  },
+  en: {
+    appTitle: "Zen Wooden Fish",
+    totalMerit: "Total Merit",
+    todayMerit: "Today",
+    currentIntention: "Intention",
+    customPlaceholder: "Custom...",
+    meritBook: "Stats",
+    guest: "Guest",
+    loginTitle: "Welcome",
+    editProfile: "Edit Profile",
+    phoneLabel: "Phone",
+    phonePlaceholder: "For saving progress",
+    nicknameLabel: "Nickname",
+    nicknamePlaceholder: "Your name",
+    cancel: "Cancel",
+    confirm: "Confirm",
+    phoneError: "Please enter phone number",
+    nicknameError: "Please enter nickname",
+    statsTitle: "30-Day Record",
+    total30Days: "30-Day Merit",
+    activeDays: "Active Days",
+    dailyTrend: "Daily Trend",
+    intentionDist: "Top Intentions",
+    noRecords: "No records yet",
+    floatingMerit: "Merit +1"
+  }
+};
+
+export const intentionMap: Record<string, string> = {
+  "求平安": "Peace",
+  "求财富": "Wealth",
+  "求工作": "Career",
+  "求智慧": "Wisdom",
+  "求姻缘": "Love",
+  "求健康": "Health",
+  "Peace": "求平安",
+  "Wealth": "求财富",
+  "Career": "求工作",
+  "Wisdom": "求智慧",
+  "Love": "求姻缘",
+  "Health": "求健康"
+};
